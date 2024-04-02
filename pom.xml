@@ -58,32 +58,14 @@
             <version>5.8.1</version> <!-- Use the latest version -->
             <scope>test</scope>
         </dependency>
-
-        <!--		<dependency>-->
-        <!--			<groupId>org.apache.httpcomponents</groupId>-->
-        <!--			<artifactId>httpclient</artifactId>-->
-        <!--		</dependency>-->
-        <!--		<dependency>-->
-        <!--			<groupId>org.springframework.boot</groupId>-->
-        <!--			<artifactId>spring-boot-starter-log4j2</artifactId>-->
-        <!--		</dependency>-->
     </dependencies>
 
-    <!-- Package as an executable jar -->
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.1.18.RELEASE</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>9</source>
-                    <target>9</target>
-                </configuration>
             </plugin>
         </plugins>
     </build>
